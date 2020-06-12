@@ -25,6 +25,11 @@ h1, h2{
     font-family: 'Anton', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     width: 105px;
     height: 105px;
@@ -102,6 +107,15 @@ h1, h2{
     font-size: 18px;
 }
 
+.selected-work {
+    display: flex;
+    justify-content: center;
+}
+
+.the-last {
+    display: none;
+}
+
 
 .apple-ipad {
     height: auto;
@@ -156,13 +170,70 @@ h1, h2{
     height: 18px;
 }
 
+.macbook {
+    height: auto;
+    max-width: 100%;
+    border: 10px solid #E6E6E6;
+    border-radius: 5%;
+}
+
+.man {
+    height: auto;
+    max-width: 100%;
+    border: 10px solid #E6E6E6;
+    border-radius: 5%;
+}
+
+.security {
+    height: auto;
+    max-width: 100%;
+    border: 10px solid #E6E6E6;
+    border-radius: 5%;
+}
+
+hr {
+    display: none;
+}
+
 
 @media screen and (min-width: 576px) {
+    hr {
+        display: none;
+        max-width: 100%
+    }
+
+    .macbook-card {
+        display: inline-block;
+    }
+    .macbook {
+        display: inline;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+   .the-last {
+        display: none;
+    }
 
 }
 
 @media screen and (min-width: 768px) {
+    nav {
+        justify-content: start;
+    }
 
+    .selected-work {
+        justify-content: start;
+        display: inline-block;
+
+    }
+
+    .the-last {
+        display: inline-block;
+        float: right;
+    }
 }
 
 @media screen and (min-width: 992px) {
