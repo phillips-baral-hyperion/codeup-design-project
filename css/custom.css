@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background: #E6E6E6
+    background: #F0F0F0
     font-family: 'Anton', sans-serif;
 }
 
@@ -25,7 +25,7 @@ h1, h2{
     font-family: 'Anton', sans-serif;
 }
 
-img {
+.logo {
     width: 105px;
     height: 105px;
 }
@@ -101,6 +101,61 @@ img {
     border-radius: 100%;
     font-size: 18px;
 }
+
+
+.apple-ipad {
+    height: auto;
+    max-width: 100%;
+    border: 10px solid #E6E6E6;
+    border-radius: 5%;
+}
+
+
+
+.smaller-icon-red{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-weight: bold;
+    background: #E6563B;
+    border-radius: 50%;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+}
+
+.smaller-icon-orange{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-weight: bold;
+    background: #EB9D3A;
+    border-radius: 100%;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+}
+
+.smaller-icon-green{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-weight: bold;
+    background: #7CB06C;
+    border-radius: 100%;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+}
+
+.smaller-icon-blue{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-weight: bold;
+    background: #00ABA9;
+    border-radius: 100%;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+}
+
 
 @media screen and (min-width: 576px) {
 
